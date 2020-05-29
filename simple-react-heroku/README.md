@@ -1,3 +1,17 @@
+## Deploy to Heroku
+
+Use the following buildback from the settings section in heroku
+https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack
+
+From the cli 
+```
+heroku create <app_name-here> --buildpack mars/create-react-app
+git push heroku master
+heroku open
+
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
